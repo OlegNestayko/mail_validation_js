@@ -1,0 +1,52 @@
+.wrapper {
+  padding-top: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+  outline: none;
+  border: 1px solid rgb(131, 129, 129);
+  border-radius: 5px;
+}
+
+.form__input:focus {
+  border-color: rgb(12, 206, 12);
+}
+
+.form__btn {
+  margin-top: 10px;
+  padding: 7px;
+
+  font-weight: 600;
+  color: #f8f8f8;
+
+  background-color: rgb(66, 219, 20);
+  border: 1px solid rgb(46, 156, 12);
+  border-radius: 5px;
+
+  transition: all 0.5s ease;
+}
+
+.form__btn:hover {
+  color: rgb(40, 134, 12);
+  background-color: #f8f8f869;
+}
+
+.invalid {
+  background-color: Pink;
+  border-color: rgb(243, 6, 6);
+}
+
+.valid {
+  background-color: LightGreen;
+}
